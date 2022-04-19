@@ -11,7 +11,7 @@ public class ejhelado : MonoBehaviour
     {
         float precioheladonormal = gramosdehelado * 0.5f;
         float preciodeheladofrutillas = precioheladonormal * 0.10f;
-        if (gustodehelado != "ddl" || gustodehelado != "fru" || gustodehelado != "cho")
+        if (gustodehelado != "ddl" && gustodehelado != "fru" && gustodehelado != "cho")
         {
             Debug.Log("No es posible ingresar esta gusto de helado, para ingresar su gusto de helado escriba ddl,fru o cho");
         }
